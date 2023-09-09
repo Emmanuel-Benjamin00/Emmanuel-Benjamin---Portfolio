@@ -1,0 +1,122 @@
+/* predefined css colors */
+:root {
+    --major-color: #27005D;
+    --secondary: #9400FF;
+    --tertiary: #AED2FF;
+    --final: #E4F1FF;
+    --white: #FFF;
+}
+
+body{
+    background-color: var(--secondary) !important;
+}
+
+.body-cont{
+    background-color: var(--white) !important;
+}
+
+.name, .hero{
+    color: var(--major-color);
+}
+
+.nav a{
+    color: var(--major-color);
+    font-weight: bold;
+}
+
+.my-img{
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.header,.hero{
+    background-color: var(--final);
+}
+
+.container{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.cloud{
+    position: relative;
+}
+
+.cloud-1{
+    left: 20em !important;
+}
+
+.cloud-2{
+    left: 10em;
+    bottom:4em;
+}
+
+.mountain{
+    position: absolute;
+    left: 30em;
+}
+
+
+
+.me{
+    color: var(--secondary);
+}
+
+.hire-card, .hire-card *{
+    border: none !important;
+    padding: 0 !important;
+}
+
+.skills-logo{
+    color: red !important;
+}
+
+
+.rectangle1{
+    background-color: var(--secondary);
+    height: 20em;
+    width: 20em;
+    position: relative;
+    margin: 7.5em;
+}
+
+.emman-img{
+    position: absolute;
+    bottom: -0.1em;
+    left: 2em;
+    z-index: 2;
+}
+
+.rectangle2{
+    border: 2px solid black;
+    height: 20em;
+    width: 20em;
+    position: absolute;
+    right: 4em;
+    z-index: 1;
+    top: 2em;
+}
+
+
+
+.about-card *{
+    padding: 0 !important;
+} 
+
+.about-card{
+    border: none !important;
+}
+
+.about-card ul{
+    font-size: 1.16rem;
+}
+
+.contact-me .card{
+    border: none !important;
+}
+
+
+.btn{
+    background-color: var(--secondary) !important;
+}
+
